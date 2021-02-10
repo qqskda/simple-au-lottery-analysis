@@ -1,11 +1,8 @@
 # Austrlian Lottery Ticket Generator
  
 
-Idea:
-
-- Each number is independent. 
-- Hence, the total repetitions for each num will likely be equal in the long term.
-- Find the relations between a number to the rest within each draw. 
-  - For example, if number 1 is drawn, what are the chances for the other particular number to be drawn based on the previous draws.
-  - So each number will have a dictionary of other 44 numbers while each nested dictionary has two keys: Winning and Supps.
-Later, give more weights to those have higher chances when generating a random ticket number.
+Idea: 
+* From the given graph on the lottery website, it could be found that the draws of the numbers are almost evenly distributed.
+* It indicates the chances of a number being drawn are roughly the identifal in a long term. 
+* However, it does not necessarily indicates that there are no correlations between numbers. 
+* This project is to check if there are any existing corellations, and if 
