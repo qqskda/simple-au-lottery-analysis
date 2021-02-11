@@ -2,7 +2,7 @@
  
 
 Idea: 
-* From the given graph on the lottery website, it could be found that the draws of the numbers are almost evenly distributed.
-* It indicates the chances of a number being drawn are roughly the identifal in a long term. 
-* However, it does not necessarily indicates that there are no correlations between numbers. 
-* This project is to check if there are any existing corellations, and if 
+
+* Statistics given by the lottery website implies "Each number has the same chances for being drawn (independently), hence the repetitions per number are roughly the same in the long term perspective."
+
+* However, do the statistics have the result because of the null hypothesis? Or are there correlations among numbers while "reps per each number are roughly the same in overall" ?
