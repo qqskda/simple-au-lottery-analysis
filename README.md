@@ -1,4 +1,4 @@
-### Simple Statistical Analysis on Australian Lottery
+### Simple Statistical Analysis of Australian Lottery
 
 ### Idea:
 
