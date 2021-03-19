@@ -15,7 +15,7 @@ Image Source: https://www.thelott.com/mon-wed-lotto/results
 * The image shown above shows that the "draws" of numbers are almost-equally distributed.
   * It seems like it implies that the lottery machine abides by the rule "true randomness."
 
-* If the lottery machine plays by the "true randomness" rule, with a number drawn, the chances of the other number gets picked are identically equal to each other. (1 / (n of numbers in the machine not drawn)).
+* If the lottery machine plays by the "true randomness" rule, with a number drawn, the chances of the other number gets picked are identically equal to each other. (1 / remainders in the machine).
 
 ### Objective:
 * The main objective of this side-project is conducting a simple statistical analysis to visually check whether the lottery machine follows the rule based on the previous draws since 2012 January.
