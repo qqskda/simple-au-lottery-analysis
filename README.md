@@ -20,7 +20,7 @@ Previous Draws of MonWedLotto per number <br>
 
 ### Objective:
 * The main objective of this side-project is conducting a simple statistical analysis to visually check whether the lottery machine follows the rule based on the previous draws since 2012 January.
-* Only conducted against two lotteries: Mon & Wed Lotto and Saturday Lotto. It is only because those are the two lotteries I buy weekly.
+* Conducted against two lotteries: Mon & Wed Lotto and Saturday Lotto. It is only because those are the two lotteries I buy weekly.
 * The minor objective is making a ticket generator based on the conducted analysis to have a "higher-chance-of-winning" for ___fun___.
 
 
@@ -42,8 +42,8 @@ retrieve_plot_info(corrNums_data, n)
 
 #### Ticket Generator:
 
-* ___Again, this is for fun and odds are BASED ON the previous draws.___
-* If you want to make completely random tickets, do it at https://www.random.org/quick-pick/
+* ___Again, this is for fun and the used odds are BASED ON the previous draws.___
+* If you want to make complete-random tickets, do so at https://www.random.org/quick-pick/
 
 ```python
 # Ignore 0.5 - threshold for future implemenation
@@ -55,14 +55,14 @@ ticket_generator(df_wed_corrNums, 0.5, 5)
 gameGenerator(df_wed_corrNums, 10, 5, None)
 ```
 
-* By running above functions, you will be able to have the following tickets:
+* By running the above functions, you will be able to have the following generated tickets:
 
 <p align="center">
 <img src="src/table_plot.png" alt="top 4 for number 28" width="400" align="center"/> <br>
 Generated Tickets based on the above conducted analysis
 </p>
 
-* ___perc_mean___ is the average percentage that is more likely to be drawn together than the averages as a set.
+* ___perc_mean___ is the average percentage that shows how much more likely the ticket to be drawn together compares to the other numbers (in average) as a set.
 * For example, in Ticket No. 1:
     * 20 (#2) has 25% (roughly) chances of more likely being drawn together with 41 (#1)
     * #3 has a% chances of .... with 20 (#2)
