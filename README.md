@@ -1,6 +1,5 @@
 ### Simple Statistical Analysis on Australian Lottery
 
-
 ### Idea:
 
 <p align="center">
@@ -8,7 +7,7 @@
 </p>
 <p align="center">
 Previous Draws of MonWedLotto per number <br>
-<em>[Image Source](https://www.thelott.com/mon-wed-lotto/results)</em>
+Image Source: https://www.thelott.com/mon-wed-lotto/results
 </p>
 
 * Statistically, each number has the same chances for being drawn (independently). Hence the repetitions per number are roughly the same in the long term perspective.
